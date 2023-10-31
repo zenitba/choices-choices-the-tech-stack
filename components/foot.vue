@@ -1,7 +1,7 @@
 <template>
     <section class="container2">
       <article>
-        <h2>SPATwater</h2>
+        <h2>{{ strapiData?.title }}</h2>
         <h3>Een nieuwe generatie hydrologen</h3>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -44,13 +44,40 @@
       </article>
     </section>
   </template>
-  
-  <script>
-  export default {
-    // Your component logic can be added here if needed.
-  };
-  </script>
-  
+<script>
+export default {
+  data() {
+    return {
+      strapiData: null,
+    };
+  },
+  mounted() {
+    const apiUrl = 'http://localhost:1337'; // Vervang met de URL van je Strapi-backend
+    const entryId = 1; // Vervang dit door de ID van de invoer die je wilt ophalen
+    const apiToken = 'VervangDitMetJeAPIAccessToken'; // Vervang dit door je daadwerkelijke API-token
+
+    fetch(`${apiUrl}/api/tests/${entryId}`, {
+      method: 'GET',
+      headers: {
+        'Authorization': `Bearer ${apiToken}`,
+      },
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Netwerkrespons was niet in orde');
+        }
+        return response.json();
+      })
+      .then((data) => {
+        this.strapiData = data;
+      })
+      .catch((error) => {
+        console.error('Er is een fout opgetreden:', error);
+      });
+  },
+};
+</script>
+
  
 <style scoped>
 h2 {

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kennisbanks",
+  "info": {
+    "singularName": "kennisbank",
+    "pluralName": "kennisbanks",
+    "displayName": "kennisbank",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "date"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
