@@ -1,5 +1,5 @@
 <template>
-    <section class="container">
+    <section class="container2">
       <article>
         <h2>SPATwater</h2>
         <h3>Een nieuwe generatie hydrologen</h3>
@@ -85,13 +85,15 @@ a {
 section {
   height: 100%;
   background-color: var(--darkblue);
+  width: 100%;
 }
 
-.container {
+.container2 {
   padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+
 }
 
 @media screen and (min-width: 720px) {
@@ -100,10 +102,11 @@ section {
     margin-top: 2rem;
   }
   section {
-    /* height: 50vh; */
-  }
-  .container {
+width: 100%; 
+ }
+  .container2 {
     flex-direction: row;
+    width: 100%;
   }
 
   li {
