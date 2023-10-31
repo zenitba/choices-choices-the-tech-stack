@@ -12,7 +12,7 @@
                 <a href="#brain" class="button">Bekijk project</a>
               </div>
               <div class="image-container">
-                <img src="~/assets/brain.png" alt="b-RAIN" />
+                <!-- <img src="~/assets/brain.png" alt="b-RAIN" /> -->
               </div>
             </div>
           </div>
