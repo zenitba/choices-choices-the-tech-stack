@@ -1,75 +1,54 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# SPAT-Water💧
 
-## Setup
+## Beschrijving 📃
+De opdracht is om de website om te zetten in een ander framework en een andere CMS
+![mockup3](https://github.com/sannevanseeventer/SPATwater-2.0/assets/112857444/e668acea-201f-4391-be72-2eb91ce4367d)
 
-Make sure to install the dependencies:
 
-```bash
-# npm
-npm install
 
-# pnpm
-pnpm install
+## Inhoudsopgave
 
-# yarn
-yarn install
+  * [Beschrijving📃](#beschrijving)
+  * [Gebruik👥](#gebruik)
+  * [Kenmerken✅](#kenmerken)
+  * [Installatie⚙️](#installatie)
+  * [Bronnen🌐](#bronnen)
+  * [Licentie](#licentie)
+    
+##  Gebruik  👥
 
-# bun
-bun install
-```
+<!-- Voeg een link toe naar Github Pages 🌐-->
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
+## Kenmerken ✅
+<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-```bash
-# npm
-npm run dev
 
-# pnpm
-pnpm run dev
+**TOOLS 🧰:**
+* VSCode
+* Miro
+* Figma
+  
+**GEBRUIKTE TECHNIEKEN 🛠️:**
 
-# yarn
-yarn dev
+* Nuxt
+* Cosmic
+* JS
+* CSS
+  
 
-# bun
-bun run dev
-```
+## Installatie ⚙️
 
-## Production
+1. Clone of download deze repository naar de gewenste folder.
+2. Open de root directory van dit project en open het project in een code editor naar keuze.
+3. Gebruik npm install om de benodigde packages te downloaden voor dit project.
+5. Start een server met npm run dev.
 
-Build the application for production:
+## Bronnen 🌐
 
-```bash
-# npm
-npm run build
+>[Nuxt](https://nuxt.com)
+>[Nuxt-Strapi](https://www.youtube.com/watch?v=ZQVv7JhiYvU&list=PLzlG0L9jlhEPbibzuAQmxJg4FYwRnEyIW)
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Licentie
+This project is licensed under the terms of the MIT license.
